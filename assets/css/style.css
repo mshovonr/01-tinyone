@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* common style */
+:root{
+	--primary-color: #fcdb00;
+	--text-color: #676767;
+	--light-text-color: #acacac;
+	--white-color: #fff;
+	--black-color: #000;
+}
+*{
+	font-family: 'PT Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+img{
+	width: 100%;
+}
+/* common style end */
+
+/* header start */
+header{
+	margin: 0;
+	padding: 0;
+	background-color: #fcdb00;
+}
+.header-section{
+	padding: 40px 0px 50px 0px;
+}
+	/* navbar start */
+.navbar-section{
+	padding-right: 5px;
+}
+.navbar-section .logo-area{
+	text-decoration: none;
+	color: var(--black-color);
+	font-size: 30px;
+	font-weight: 600;
+	transition: .4s;
+}
+.navbar-section .logo-area:hover{
+	color: var(--white-color);
+}
+.logo-area .logo-icon{
+	width: 35%;
+	padding-right: 14px;
+}
+.navbar-nav .nav-item .nav-link{
+	font-size: 20px;
+	padding: 0px 25px;
+	font-weight: 600;
+	color: var(--black-color);
+	transition: .5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: var(--white-color);
+}
+	/* navbar end */
+	/* content start */
+.header-content{
+	padding: 50px 0px 0px 0px;
+}
+.carousel-indicators [data-bs-target] {
+	height: 15px;
+	width: 15px;
+}
+button {
+	border-radius: 50%;
+}
+.all-text{
+	padding: 50px 0px 0px 0px;
+}
+.all-text .heading-text{
+	font-size: 34px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+.all-text .text-1{
+	font-size: 20px;
+	font-weight: 500;
+	padding-right: 30px;
+	/* text-align: justify; */
+}
+.all-text .text-2{
+	font-size: 16px;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+.all-text .header-icon{
+	padding:10px 0px 70px 0px;
+}
+.header-icon .icon-a{
+	margin-right: 10px;
+	padding: 17px 10px 10px 12px;	
+	text-decoration: none;
+	color: var(--black-color);
+	background-color: transparent;
+	transition: .6s;
+}
+.header-icon .icon-a:hover{
+	color: var(--white-color);
+	background-color: var(--black-color);
+  box-shadow: 0px 6px 10px 0px rgb(40 40 40);
+}
+.banner-image{
+	text-align: right;
+	padding-bottom: 65px;
+}
+.banner-image img{
+	width: 80%;
+}
+	/* content end */
+/* header end */
+
+/* fetures start */
+.feature-section{
+	padding-top: 50px;
+}
+.feature-section .feature-content{
+	padding-top: 40px;
+}
+.feature-content h2{
+	font-size: 32px;
+	font-weight: 600;
+	padding-bottom: 15px;
+}
+.feature-content p{
+	font-size: 20px;
+	color: var(--text-color);
+}
+.features{
+	padding: 60px 0px 120px 0px;
+}
+.features .features-icon{
+	width: 20%;
+}
+.features .features-icon i{
+	font-size: 42px;
+	transition: .4s;
+}
+.features .features-icon i:hover{
+	font-weight: 700;
+	color: #fcdb00;
+	background-color: transparent;
+	/* box-shadow: 0px 5px 10px var(--text-color); */
+}
+.features .icon-4 i{
+	font-size: 34px;
+}
+.features .features-text{
+	width: 80%;
+}
+.features .features-text h3{
+	font-size: 22px;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+.features .features-text p{
+	font-size: 16px;
+	color: var(--text-color);
+}
+/* fetures end */
+
+/* footer start */
+.footer-section{
+	background: var(--black-color);
+}
+.footer-part h2{
+	color: var(--primary-color);
+	text-align: center;
+	padding: 5px 0px;
+}
+.footer-part p{
+	color: var(--text-color);
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+.footer-part .form-control{
+  border-color: #acacac;
+	padding: 10px 14px;
+  border-radius: 0.25rem;
+}
+.footer-part .btn{
+	margin: 25px 0px 0px 0px;
+	padding: 10px 14px;
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+  border-radius: 0.25rem;
+	font-weight: 600;
+	transition: .6s;
+}
+.footer-part .btn:hover{
+  border-color: var(--black-color);
+	background-color: var(--white-color);
+	color: var(--black-color) !important;
+}
+	/* icons start */
+.footer-part .footer-icons{
+	padding-top: 40px;
+}
+.footer-part .footer-icons .b-1{
+	padding: 6px 13px;
+}
+.footer-part .footer-icons .b-2{
+	padding: 6px 11px;
+}
+.footer-part .footer-icons .b-3{
+	padding: 6px 9px;
+}
+.footer-part .footer-icons .b-4{
+	padding: 6px 12px;
+}
+	/* icons end */
+	/* content start */
+.footer-part .footer-content{
+	padding-top: 80px;
+}
+.footer-content .row{
+	margin: 0;
+	padding: 0;
+}
+.footer-content .row-content{
+	padding-top: 25px;
+}
+.footer-content .row-content .footer-link{
+	text-decoration: none;
+	font-size: 14px ;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	color: var(--light-text-color);
+}
+	/* content end */
+/* footer end */
