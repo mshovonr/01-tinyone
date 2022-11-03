@@ -245,7 +245,14 @@ button {
 .footer-content .row-content{
 	padding-top: 25px;
 }
-.footer-content .row-content .footer-link{
+.row-content ul{
+	margin: 0;
+	padding: 0;
+}
+.row-content ul li{
+	list-style: none;
+}
+.row-content .footer-link{
 	text-decoration: none;
 	font-size: 14px ;
 	text-align: left;
