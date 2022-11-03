@@ -150,6 +150,7 @@ button {
 }
 .features .features-text{
 	width: 80%;
+	padding-bottom: 10px;
 }
 .features .features-text h3{
 	font-size: 22px;
@@ -161,27 +162,28 @@ button {
 	color: var(--text-color);
 }
 /* fetures end */
-
-/* footer start */
-.footer-section{
-	background: var(--black-color);
+/* support start */
+.support-section{
+	background-color: #111;
+	padding: 25px 0px 75px 0px;
 }
-.footer-part h2{
+.support-part h2{
 	color: var(--primary-color);
 	text-align: center;
 	padding: 5px 0px;
 }
-.footer-part p{
+.support-part p{
 	color: var(--text-color);
 	text-align: center;
 	padding: 0px 0px 20px 0px;
 }
-.footer-part .form-control{
+
+.support-part .form-control{
   border-color: #acacac;
 	padding: 10px 14px;
   border-radius: 0.25rem;
 }
-.footer-part .btn{
+.support-part .btn{
 	margin: 25px 0px 0px 0px;
 	padding: 10px 14px;
   border-color: var(--primary-color);
@@ -190,31 +192,51 @@ button {
 	font-weight: 600;
 	transition: .6s;
 }
-.footer-part .btn:hover{
+.support-part .btn:hover{
   border-color: var(--black-color);
 	background-color: var(--white-color);
 	color: var(--black-color) !important;
 }
 	/* icons start */
-.footer-part .footer-icons{
+.support-part .support-icons{
 	padding-top: 40px;
 }
-.footer-part .footer-icons .b-1{
-	padding: 6px 13px;
+.support-icons .btn{
+	margin: 50px 0px 0px 0px;
+	padding: 10px 14px;
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+  border-radius: 0.25rem;
+	font-weight: 600;
+	transition: .6s;
 }
-.footer-part .footer-icons .b-2{
-	padding: 6px 11px;
+.support-icons .btn:hover{
+  border-color: var(--black-color);
+	background-color: var(--white-color);
+	color: var(--black-color) !important;
 }
-.footer-part .footer-icons .b-3{
-	padding: 6px 9px;
+.support-icons .b-1{
+	padding: 8px 14px;
 }
-.footer-part .footer-icons .b-4{
-	padding: 6px 12px;
+.support-icons .b-2{
+	padding: 8px 11px;
+}
+.support-icons .b-3{
+	padding: 8px 9px;
+}
+.support-icons .b-4{
+	padding: 8px 12px;
 }
 	/* icons end */
-	/* content start */
-.footer-part .footer-content{
-	padding-top: 80px;
+/* support end */
+
+/* footer start */
+.footer-section{
+	background: var(--black-color);
+}
+.footer-content{
+	padding-top: 60px;
+	padding-bottom: 40px;
 }
 .footer-content .row{
 	margin: 0;
@@ -231,5 +253,4 @@ button {
 	padding: 0px;
 	color: var(--light-text-color);
 }
-	/* content end */
 /* footer end */

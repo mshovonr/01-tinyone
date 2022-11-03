@@ -1,3 +1,22 @@
+/* responsive framework customized for only this page */
+/* to see this template in my github, visit: https://github.com/mshovonr */
+
+/* ---- container extra-small only start ---- */
+@media(min-width: 0px)  and (max-width: 575px){
+  .banner-image img{
+    width: 30%;
+  }
+  .banner-image{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .carousel-inner .carousel-item .row{
+    flex-direction: column-reverse
+  }
+}
+/* ---- container extra-small only end ---- */
+
 /* --------------------- container extra small and small start --------------------*/
 @media(min-width: 0px) and (max-width: 767px){
   /* header start */
@@ -22,16 +41,12 @@
     font-size: 14px;
     padding-bottom: 10px;
   }
-  .banner-image{
-    text-align: center;
-    padding-bottom: 50px;
-  }
-  .banner-image img{
-    width: 45%;
-  }
     /* content end */
   /* header end */
   /* feature start */
+  .support-section{
+    padding: 25px 0px 50px 0px;
+  }
   .feature-section .feature-content{
     padding-top: 0px;
   }
@@ -45,6 +60,7 @@
   .features .features-icon{
     width: 18%;
     text-align: right !important;
+    padding-right: 20px;
   }
   .features .features-text{
     width: 82%;
@@ -54,18 +70,20 @@
     padding-right: 10px;
   }
   /* feature end */
-  /* footer start */
-  .footer-part .btn{
+  /* support start */
+  .support-part .btn{
     margin: 15px 0px 10px 0px;
   }
-  .footer-part .submit{
+  .support-part .submit{
     text-align: left !important;
   }
-  .footer-part .footer-icons{
+  .support-part .footer-icons{
     padding-top: 30px;
   }
-  .footer-part .footer-content{
-    padding-top: 30px;
+  /* support end */
+  /* footer start */
+  .footer-content{
+    padding-top: 35px;
   }
   /* footer end */
 }
@@ -76,22 +94,22 @@
   .banner-image{
     text-align: right;
     padding-top: 26px;
+    padding-bottom: 40px;
   }
   .banner-image img{
-    width: 80%;
+    width: 85%;
   }
   .features .features-icon{
     width: 22%;
-    text-align: left !important;
   }
   .features .features-text{
     width: 78%;
   }
   .features .features-text p{
     text-align: justify;
-    padding-right: 0px;
+    padding-right: 5px;
   }
-  .footer-part .footer-content{
+  .footer-content{
     padding-top: 40px;
   }
   .footer-content .row-content{
@@ -100,7 +118,7 @@
 }
     /* ---- extra container small only ---- */
 
-/* --------------------- container medium start --------------------*/
+/* --------------------- container medium start -------------------- */
 @media(min-width: 768px) and (max-width: 991px){
   /* header start */
   .header-section{
@@ -144,21 +162,26 @@
     font-size: 18px;
   }
   /* feature end */
-  /* footer start */
-  .footer-part .footer-icons{
+  /* support start */
+  .support-part .footer-icons{
     padding-top: 25px;
   }
-  .footer-part .footer-content{
+  .support-part .footer-content{
     padding-top: 60px;
+  }
+  /* support end */
+  /* footer start */
+  .footer-content{
+    padding-top: 45px;
   }
   .footer-content .row-content{
     padding-top: 10px;
   }
   /* footer end */
 }
-/* --------------------- container medium end --------------------*/
+/* --------------------- container medium end -------------------- */
 
-/* --------------------- container large start --------------------*/
+/* --------------------- container large start -------------------- */
 @media(min-width: 992px) and (max-width: 1199px){
   /* header start */
   .header-section{
@@ -183,6 +206,10 @@
   }
     /* content end */
   /* header end */
+
+  .features .features-icon{
+    text-align: left !important;
+  }
   
   /* footer start */
   .footer-content .row-content{
@@ -190,4 +217,4 @@
   }
   /* footer end */
 }
-/* -------------------- container large end --------------------*/
+/* -------------------- container large end -------------------- */
